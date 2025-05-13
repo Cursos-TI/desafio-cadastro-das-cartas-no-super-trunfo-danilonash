@@ -21,24 +21,37 @@ int main() {
 
     // Início do código do desafio (Danilo)
 
+    // Declaração das Variáveis
+
+    int codigo, populacao, atracoes;
+    float area, PIB;
+    char nome;
+
     // Cadastro da Cidade 1
 
-    int codigo1, populacao1, atracoes1;
-    float area1, PIB1;
-    char nome1;
-
-
-    printf("Digite o código da cidade: \n");
+    printf("Digite o código da cidade 1: \n");
     scanf("%d", &codigo);
 
-    printf("Digite o nome da cidade: \n");
+    printf("Digite o nome da cidade 1: \n");
     scanf("%s", &nome);
 
-    printf("Digite a quantidade de habitantes da cidade: \n");
+    printf("Digite a quantidade de habitantes da cidade 1: \n");
     scanf("%d", &populacao);
 
+    printf("Digite a área da cidade 1 (km²): \n");
+    scanf("%f", &area);
 
+    printf("Digite o PIB da cidade 1 (R$): \n");
+    scanf("%f", &PIB);
 
+    printf("Digite a quantidade de pontos turísticos da cidade 1: \n");
+    scanf("%d", &atracoes);
+
+    // Imprimir Carta 1
+
+    printf("Carta 1\n");
+    printf("Código: %d\n", codigo);
+    printf("Cidade: %s\n", nome);
 
 
     return 0;
