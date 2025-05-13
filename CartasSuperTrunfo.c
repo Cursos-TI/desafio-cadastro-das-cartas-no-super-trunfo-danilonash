@@ -18,5 +18,28 @@ int main() {
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
+
+    // Início do código do desafio (Danilo)
+
+    // Cadastro da Cidade 1
+
+    int codigo1, populacao1, atracoes1;
+    float area1, PIB1;
+    char nome1;
+
+
+    printf("Digite o código da cidade: \n");
+    scanf("%d", &codigo);
+
+    printf("Digite o nome da cidade: \n");
+    scanf("%s", &nome);
+
+    printf("Digite a quantidade de habitantes da cidade: \n");
+    scanf("%d", &populacao);
+
+
+
+
+
     return 0;
 }
