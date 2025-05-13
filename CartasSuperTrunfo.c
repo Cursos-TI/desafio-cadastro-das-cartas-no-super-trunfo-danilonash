@@ -25,12 +25,15 @@ int main() {
 
     int codigo, populacao, atracoes;
     float area, PIB;
-    char nome;
+    char estado, nome;
 
     // Cadastro da Cidade 1
 
+    printf("Digite o Estado da cidade 1: \n");
+    scanf("%s", &estado);
+
     printf("Digite o código da cidade 1: \n");
-    scanf("%d", &codigo);
+    scanf("%s", &codigo);
 
     printf("Digite o nome da cidade 1: \n");
     scanf("%s", &nome);
@@ -50,8 +53,13 @@ int main() {
     // Imprimir Carta 1
 
     printf("Carta 1\n");
-    printf("Código: %d\n", codigo);
+    printf("Estado: %s\n", estado);
+    printf("Código: %s\n", codigo);
     printf("Cidade: %s\n", nome);
+    printf("População: %d\n", populacao);
+    printf("Área: %f\n", area);
+    printf("PIB: %s\f", PIB);
+    printf("Quantidade de Pontos Turísticos: %d\n", atracoes);
 
 
     return 0;
